@@ -1,10 +1,10 @@
 <% @item_comments.each do |item_comment| %>
   <div class="pt-2 px-2" style="background-color: #fffffe; border: 2px solid #272343; border-radius: 2px;">
     <%# rateを表示 %>
-    <div class="review-rating">
-      評価：<%= item_comment.rate %>/5点
-      <div class="detail-value", id="star-comf-<%= item_comment.rate %>"></div>
-    </div>
+    <!--<div class="review-rating">-->
+    <!--  評価：<%= item_comment.rate %>/5点-->
+    <!--  <div class="detail-value", id="star-comf-<%= item_comment.rate %>"></div>-->
+    <!--</div>-->
         
       <div class="text-left">
         <p>投稿者：<%= item_comment.customer.full_name %></p>

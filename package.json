@@ -1,5 +1,4 @@
 {
   "name": "NFT",
-  "private": true,
-  "dependencies": {}
+  "private": true
 }

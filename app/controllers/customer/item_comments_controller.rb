@@ -18,7 +18,7 @@ class Customer::ItemCommentsController < ApplicationController
     item_comment = ItemComment.new(item_comment_params)
     item_comment.item_id = params[:id]
     item_comment.customer_id = current_customer.id
-    item_comment.rate = params[:item_comment][:rate]
+    #item_comment.rate = params[:item_comment][:rate]
     item_comment.save
     redirect_to item_comment_index_path
   end
